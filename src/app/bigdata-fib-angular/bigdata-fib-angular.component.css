@@ -1,0 +1,52 @@
+h1{
+text-align: center;
+color: red;
+}
+
+h2{
+text-align: center;
+color: black;
+font-size: large;
+}
+
+body{
+  text-align: center;
+  font-family: Cambria Math, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+label{
+font-weight: bold;
+}
+
+input::placeholder{
+color: grey;
+font-style: italic;
+}
+
+input[type=number] {
+border: 2px solid grey;
+border-radius: 10px;
+box-shadow: 3px 3px 5px grey;
+}
+
+button{
+color: white;
+cursor: pointer;
+border: none;
+
+background-color: #007bff;
+padding: 5px 10px;
+}
+
+button:hover{
+background-color: #0056b3;
+}
+
+p{
+text-align: left;
+font-size: 18px;
+margin-top: 20px;
+word-wrap: break-word;
+}

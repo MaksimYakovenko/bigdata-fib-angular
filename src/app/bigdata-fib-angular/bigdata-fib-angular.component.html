@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fibonacci Calculator</title>
+</head>
+<h1>Fibonacci calculator for big data</h1>
+<h2>Calculated time: {{ elapsedTime / 1000}} seconds</h2>
+<body>
+<div>
+  <input type="number" [(ngModel)]="n" placeholder="Enter n" />
+  <button (click)="calculateFibonacci()">Calculate Fibonacci</button>
+  <p>Fibonacci ({{n}}): {{ result }}</p>
+</div>
+</body>
+</html>
